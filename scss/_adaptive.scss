@@ -53,7 +53,7 @@
 		max-width: 1320px;
 	}
 	.card-width{
-		width: 26vw;
+		width: 20vw;
 	} 
 	.card-adaptive {
 		width: 34vw;
@@ -83,6 +83,9 @@
 	*{
 		font-size: 12px;
 	}
+	.card-width{
+		width: 26vw;
+	} 
 }
 @media screen and (max-width: 1366px) {
 	*{
@@ -101,6 +104,9 @@
 	.container {
 		max-width: 75%;
 	}
+	.SecondSection {
+		height: 82vw;
+	}
 	.img-adaptive {
 		height: 20rem;
 	}
@@ -116,6 +122,9 @@
 @media screen and (max-width: 768px) {
 	*{
 		font-size: 6.4px;
+	}
+	.SecondSection {
+		height: 72vw;
 	}
 	.ThirdSection {
 		height: 48vw;
