@@ -1,0 +1,211 @@
+@media screen and (max-width: 3840px) {
+	*{
+		font-size: 32px;
+	}
+	.container {
+		max-width: 75%;
+	}
+	.card-width{
+		width: 22vw;
+	} 
+	.card-adaptive {
+		width: 34vw;
+		height: 14vw;
+	}
+	.ThirdSection {
+		height: 50vw;
+	}
+	.mobile-adaptive-enable {
+		display: none !important;
+	}
+	.mobile-adaptive-disable {
+		display: flex !important;
+	}
+}
+@media screen and (max-width: 2560px) {
+	*{
+		font-size: 21.333px;
+	}
+	.container {
+		max-width: 75%;
+	}
+	.card-width{
+		width: 22vw;
+	} 
+	.card-adaptive {
+		width: 34vw;
+		height: 14vw;
+	}
+	.ThirdSection {
+		height: 50vw;
+	}
+}
+@media screen and (max-width: 2220px) {
+	*{
+		font-size: 18.5px;
+	}
+}
+@media screen and (max-width: 1920px) {
+	*{
+		font-size: 16px;
+	}
+	.container {
+		max-width: 1320px;
+	}
+	.card-width{
+		width: 26vw;
+	} 
+	.card-adaptive {
+		width: 34vw;
+		height: 14vw;
+	}
+	.SecondSection {
+		height: 76vw;
+	}
+	.ThirdSection {
+		height: 58vw;
+	}
+	.FourthSection {
+		height: 42vw;
+	}
+}
+@media screen and (max-width: 1745.4545px) {
+	*{
+		font-size: 14.5454px;
+	}
+}
+@media screen and (max-width: 1600px) {
+	*{
+		font-size: 13.333px;
+	}
+}
+@media screen and (max-width: 1440px) {
+	*{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 1366px) {
+	*{
+		font-size: 11.383px;
+	}
+}
+@media screen and (max-width: 1260px) {
+	*{
+		font-size: 10.5px;
+	}
+}
+@media screen and (max-width: 1140px) {
+	*{
+		font-size: 9.5px;
+	}
+	.container {
+		max-width: 75%;
+	}
+	.img-adaptive {
+		height: 20rem;
+	}
+	.card-width{
+		width: 22vw;
+	}
+}
+@media screen and (max-width: 960px) {
+	*{
+		font-size: 8px;
+	}
+}
+@media screen and (max-width: 768px) {
+	*{
+		font-size: 6.4px;
+	}
+	.ThirdSection {
+		height: 48vw;
+	}
+}
+@media screen and (max-width: 600px) {
+	*{
+		font-size: 5px;
+	}
+}
+@media screen and (max-width: 540px) {
+	*{
+		font-size: 4.5px;
+	}
+}
+@media screen and (max-width: 425px) {
+	*{
+		font-size: 3.541px;
+	}
+	.SecondSection {
+		height: 220vw;
+	}
+	.mobile-adaptive-disable {
+		display: none !important;
+	}
+	.mobile-adaptive-enable {
+		display: flex !important;
+	}
+	.FourthSection {
+		height: 50vw;;
+	}
+	.carousel-inner {
+		width: auto;
+	}
+	.card-width {
+		margin: auto;
+		width: 40vw;
+		height: 40vw;
+	}
+	footer {
+		height: 12vw;
+	}
+}
+@media screen and (max-width: 375px) {
+	*{
+		font-size: 3.125px;
+	}
+}
+@media screen and (max-width: 320px) {
+	*{
+		font-size: 2.666px;
+	}
+}
+@media screen and (max-width: 270px) {
+	*{
+		font-size: 2.25px;
+	}
+}
+@media screen and (max-width: 240px) {
+	*{
+		font-size: 2px;
+	}
+}
+@media screen and (max-width: 210px) {
+	*{
+		font-size: 1.75px;
+	}
+}
+@media screen and (max-width: 180px) {
+	*{
+		font-size: 1.5px;
+	}
+}
+@media screen and (max-width: 150px) {
+	*{
+		font-size: 1.25px;
+	}
+}
+@media screen and (max-width: 120px) {
+	*{
+		font-size: 1px;
+	}
+}
+@media screen and (max-width: 90px) {
+	*{
+		font-size: 0.75px;
+	}
+}
+@media screen and (max-width: 60px) {
+	*{
+		font-size: 0.5px;
+	}
+}

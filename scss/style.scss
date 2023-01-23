@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #4B89AC;
+}
+
+a:hover {
+    color: #446491;
+}
+
+a:focus {
+    color: #446491;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #446491;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #446491;;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #4B89AC; 
+    font-size: 1.38vw;
+}
+
+.p16 {
+    font-size: 1.35rem;
+}
+
+.p20 {
+    font-size: 1.82rem;
+}
+
+.p24 {
+    font-size: 1.7rem;
+}
+
+.p44 {
+    font-size: 3.27rem;
+}
+
+.w-36 {
+    width: 36%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.h-125 {
+    height: 16vw;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.logo-size {
+    width: 3rem;
+    height: 3rem;
+}
+
+.MiniLogo {
+    width: 1.38vw;
+    height: 1.38vw;
+}
+
+.icon-size {
+    width: 2rem;
+    height: 2rem;
+}
+
+.card-bg {
+    background-color: #BEDAEE;
+}
+
+.card-width {
+    width: 26vw;
+}
+
+.card-shadow {
+    box-shadow: 0 0.7vw 0 #E4FCF9;
+}
+
+.rounded-bottom-sm {
+    border-bottom-left-radius: 1.66vw;
+    border-bottom-right-radius: 1.66vw;
+}
+
+.rounded-sm {
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+}
+
+.line {
+    height: 0.1vw;
+    background-color: #446491;
+}
+
+.border-none {
+    border: none;
+}
+
+.navbar-brand {
+    width: 2.77vw;
+    height: 2.77vw;
+    margin-right: 0;
+    padding: 0;
+}
+
+.carousel-control-prev-icon {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.carousel-control-next-icon {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.FirstSection {
+    height: 83.33vw;
+    background-image: url("../images/FirstSectionBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.SecondSection {
+    height: 80vw;
+    color: #446491;
+}
+
+.ThirdSection {
+    height: 60vw;
+    background-image: url("../images/ThirdSectionBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #4B89AC;
+}
+
+.FourthSection {
+    height: 40vw;
+    color: #446491;
+}
+
+.FifthSection {
+    height: 32vw;
+    background-image: url("../images/FifthSectionBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #446491;
+}
+
+.rounded-bottom-lg {
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+footer {
+    height: 20vw;
+    background-color: #BEDAEE;
+    color: white;
+}
+
+
+
+
+@import url('../Bootstrap/css/bootstrap.css');
+@import 'adaptive';

@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("../Bootstrap/css/bootstrap.css");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #4B89AC;
+}
+
+a:hover {
+  color: #446491;
+}
+
+a:focus {
+  color: #446491;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #446491;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #446491;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #4B89AC;
+  font-size: 1.38vw;
+}
+
+.p16 {
+  font-size: 1.35rem;
+}
+
+.p20 {
+  font-size: 1.82rem;
+}
+
+.p24 {
+  font-size: 1.7rem;
+}
+
+.p44 {
+  font-size: 3.27rem;
+}
+
+.w-36 {
+  width: 36%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.h-125 {
+  height: 16vw;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.logo-size {
+  width: 3rem;
+  height: 3rem;
+}
+
+.MiniLogo {
+  width: 1.38vw;
+  height: 1.38vw;
+}
+
+.icon-size {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card-bg {
+  background-color: #BEDAEE;
+}
+
+.card-width {
+  width: 26vw;
+}
+
+.card-shadow {
+  -webkit-box-shadow: 0 0.7vw 0 #E4FCF9;
+          box-shadow: 0 0.7vw 0 #E4FCF9;
+}
+
+.rounded-bottom-sm {
+  border-bottom-left-radius: 1.66vw;
+  border-bottom-right-radius: 1.66vw;
+}
+
+.rounded-sm {
+  border-radius: 1vw;
+  -webkit-border-radius: 1vw;
+  -moz-border-radius: 1vw;
+  -ms-border-radius: 1vw;
+  -o-border-radius: 1vw;
+}
+
+.line {
+  height: 0.1vw;
+  background-color: #446491;
+}
+
+.border-none {
+  border: none;
+}
+
+.navbar-brand {
+  width: 2.77vw;
+  height: 2.77vw;
+  margin-right: 0;
+  padding: 0;
+}
+
+.carousel-control-prev-icon {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.carousel-control-next-icon {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.FirstSection {
+  height: 83.33vw;
+  background-image: url("../images/FirstSectionBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.SecondSection {
+  height: 80vw;
+  color: #446491;
+}
+
+.ThirdSection {
+  height: 60vw;
+  background-image: url("../images/ThirdSectionBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #4B89AC;
+}
+
+.FourthSection {
+  height: 40vw;
+  color: #446491;
+}
+
+.FifthSection {
+  height: 32vw;
+  background-image: url("../images/FifthSectionBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #446491;
+}
+
+.rounded-bottom-lg {
+  border-bottom-left-radius: 2vw;
+  border-bottom-right-radius: 2vw;
+}
+
+footer {
+  height: 20vw;
+  background-color: #BEDAEE;
+  color: white;
+}
+
+@media screen and (max-width: 3840px) {
+  * {
+    font-size: 32px;
+  }
+  .container {
+    max-width: 75%;
+  }
+  .card-width {
+    width: 22vw;
+  }
+  .card-adaptive {
+    width: 34vw;
+    height: 14vw;
+  }
+  .ThirdSection {
+    height: 50vw;
+  }
+  .mobile-adaptive-enable {
+    display: none !important;
+  }
+  .mobile-adaptive-disable {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  * {
+    font-size: 21.333px;
+  }
+  .container {
+    max-width: 75%;
+  }
+  .card-width {
+    width: 22vw;
+  }
+  .card-adaptive {
+    width: 34vw;
+    height: 14vw;
+  }
+  .ThirdSection {
+    height: 50vw;
+  }
+}
+
+@media screen and (max-width: 2220px) {
+  * {
+    font-size: 18.5px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  * {
+    font-size: 16px;
+  }
+  .container {
+    max-width: 1320px;
+  }
+  .card-width {
+    width: 26vw;
+  }
+  .card-adaptive {
+    width: 34vw;
+    height: 14vw;
+  }
+  .SecondSection {
+    height: 76vw;
+  }
+  .ThirdSection {
+    height: 58vw;
+  }
+  .FourthSection {
+    height: 42vw;
+  }
+}
+
+@media screen and (max-width: 1745.4545px) {
+  * {
+    font-size: 14.5454px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  * {
+    font-size: 13.333px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  * {
+    font-size: 11.383px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  * {
+    font-size: 10.5px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  * {
+    font-size: 9.5px;
+  }
+  .container {
+    max-width: 75%;
+  }
+  .img-adaptive {
+    height: 20rem;
+  }
+  .card-width {
+    width: 22vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  * {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 6.4px;
+  }
+  .ThirdSection {
+    height: 48vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  * {
+    font-size: 4.5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  * {
+    font-size: 3.541px;
+  }
+  .SecondSection {
+    height: 220vw;
+  }
+  .mobile-adaptive-disable {
+    display: none !important;
+  }
+  .mobile-adaptive-enable {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .FourthSection {
+    height: 50vw;
+  }
+  .carousel-inner {
+    width: auto;
+  }
+  .card-width {
+    margin: auto;
+    width: 40vw;
+    height: 40vw;
+  }
+  footer {
+    height: 12vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    font-size: 3.125px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  * {
+    font-size: 2.666px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  * {
+    font-size: 2.25px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  * {
+    font-size: 2px;
+  }
+}
+
+@media screen and (max-width: 210px) {
+  * {
+    font-size: 1.75px;
+  }
+}
+
+@media screen and (max-width: 180px) {
+  * {
+    font-size: 1.5px;
+  }
+}
+
+@media screen and (max-width: 150px) {
+  * {
+    font-size: 1.25px;
+  }
+}
+
+@media screen and (max-width: 120px) {
+  * {
+    font-size: 1px;
+  }
+}
+
+@media screen and (max-width: 90px) {
+  * {
+    font-size: 0.75px;
+  }
+}
+
+@media screen and (max-width: 60px) {
+  * {
+    font-size: 0.5px;
+  }
+}
